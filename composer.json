@@ -1,0 +1,25 @@
+{
+  "name": "cjs/mysqli",
+  "description": "The cjs mysqli package.",
+  "license": "MIT",
+  "homepage": "http://www.nfangbian.com",
+  "authors": [
+    {
+      "name": "jelly",
+      "email": "42282367@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "classmap": [
+
+    ],
+    "files": [
+    ],
+    "psr-4": {
+      "CjsMysqli\\": "src/"
+    }
+  }
+}
